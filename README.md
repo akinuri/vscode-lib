@@ -1,2 +1,3 @@
 # vscode-lib
- Collection of modifications to VS Code.
+
+Collection of modifications to VS Code.
