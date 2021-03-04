@@ -26,9 +26,10 @@
 
 # File > Preferences > Keyboard Shortcuts
     
-    Copy Line Down          -> Ctrl + D
-    Toggle Line Comment     -> Ctrl + Q
-    Toggle Block Comment    -> Ctrl + Alt + W
+    Copy Line Down              -> Ctrl + D
+    Toggle Line Comment         -> Ctrl + Q
+    Toggle Block Comment        -> Ctrl + Alt + W
+    Emmet: Go to Matching Pair  -> Ctrl + Alt + D
 
 # File > Preferences > [User Snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets) > PHP
 
