@@ -1,5 +1,7 @@
 # Extensions
 
+Keyboard Shortcut: `Ctrl + Shift + X`
+
 * [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache)
 * [Favorites](https://marketplace.visualstudio.com/items?itemName=kdcro101.favorites)
 * [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
@@ -11,6 +13,8 @@
 <br>
 
 # File > Preferences > Settings > Open Settings (JSON)
+
+Keyboard Shortcut: `Ctrl + ,` `->` `Open Settings (JSON)`
 
     "editor.fontSize": 13,
     "editor.tabSize": 4,
@@ -29,6 +33,8 @@
 <br>
 
 # File > Preferences > Keyboard Shortcuts
+
+Keyboard Shortcut: `Ctrl + K Ctrl + S`
     
     Copy Line Down              -> Ctrl + D
     Toggle Line Comment         -> Ctrl + Q
@@ -41,23 +47,15 @@
 
 # File > Preferences > [User Snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 
-* Show snippets: Ctrl + Space
+Show snippets in editor: `Ctrl + Space`
 
 ## PHP
 
 ```
-"Region Comment 40" : {
-    "prefix" : "#region 40",
+"Region Comment (40 dashes)" : {
+    "prefix" : "#region40",
     "body" : [
         "#region ======================================== $0 ========================================"
-    ],
-    "description": "Add a region/section."
-},
-
-"Region Comment 25" : {
-    "prefix" : "#region 25",
-    "body" : [
-        "#region ========================= $0 ========================="
     ],
     "description": "Add a region/section."
 },
