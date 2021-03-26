@@ -79,9 +79,37 @@ Show snippets in editor: `Ctrl + Space`
 },
 ```
 
+### JS
+
+```
+"Region Start (40 dashes)" : {
+    "prefix" : "#region40",
+    "body" : [
+        "// #region ======================================== $0 ========================================"
+    ],
+    "description": "Add a region/section."
+},
+
+"Region End (spaced)" : {
+    "prefix" : "#endregion",
+    "body" : [
+        "// #endregion"
+    ],
+    "description": "End a region/section."
+},
+```
+
 ### HTML
 
 ```
+"comment" : {
+    "prefix" : "comment",
+    "body" : [
+        "<!-- $0 -->",
+    ],
+    "description": "Add a comment."
+},
+
 "anchor" : {
     "prefix" : "anchor",
     "body" : [
@@ -151,5 +179,38 @@ Show snippets in editor: `Ctrl + Space`
         "</button>",
     ],
     "description": "Add a h2 element."
+},
+
+"table" : {
+    "prefix" : "table",
+    "body" : [
+        "<table>",
+        "    <thead>",
+        "        <tr>",
+        "            <th>Header 1$0</th>",
+        "            <th>Header 2</th>",
+        "        </tr>",
+        "    </thead>",
+        "    <tbody>",
+        "        <tr>",
+        "            <td>Cell 1</td>",
+        "            <td>Cell 2</td>",
+        "        </tr>",
+        "    </tbody>",
+        "</table>",
+    ],
+    "description": "Add a table element."
+},
+```
+
+### CSS
+
+```
+"Region Comment (40 dashes)" : {
+    "prefix" : "#region40",
+    "body" : [
+        "/* #region ======================================== $0 ======================================== */"
+    ],
+    "description": "Add a region/section."
 },
 ```
