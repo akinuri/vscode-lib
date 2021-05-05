@@ -64,15 +64,15 @@ Keyboard Shortcut: `Ctrl + K Ctrl + S`
 
 ```
 Fold All (Recursively)      -> Ctrl + K Ctrl + 0
-Fold Level 1            	-> Ctrl + K Ctrl + 1
-Fold Level 2            	-> Ctrl + K Ctrl + 2
-Fold Level N            	-> Ctrl + K Ctrl + N
+Fold Level 1                -> Ctrl + K Ctrl + 1
+Fold Level 2                -> Ctrl + K Ctrl + 2
+Fold Level N                -> Ctrl + K Ctrl + N
 Fold Recursively            -> Ctrl + K Ctrl + ğ
-Fold All Regions 			-> Ctrk + R 			(previously Ctrl + K Ctrl + 8)
-Fold All Regions Exc. Sele.	-> Ctrk + K Ctrl + -
+Fold All Regions            -> Ctrk + R             (previously Ctrl + K Ctrl + 8)
+Fold All Regions Exc. Sele. -> Ctrk + K Ctrl + -
 
-Unfold All                 	-> Ctrl + K Ctrl + J
-Unfold All Regions         	-> Alt + R 				(previously Ctrl + K Ctrl + 9)
+Unfold All                  -> Ctrl + K Ctrl + J
+Unfold All Regions          -> Alt + R              (previously Ctrl + K Ctrl + 9)
 ```
 
 <br>
@@ -85,11 +85,11 @@ Show snippets in editor: `Ctrl + Space`
 
 ```
 "Region Start (20 dashes)" : {
-    "prefix" 	  : "#region20",
-    "body" 		  : ["#region ==================== ${REGION}"],
+    "prefix"      : "#region20",
+    "body"        : ["#region ==================== ${REGION}"],
     "description" : "Folding Region Start"
 },
-	
+    
 "Method" : {
     "prefix" : "method",
     "body" : [
@@ -105,14 +105,14 @@ Show snippets in editor: `Ctrl + Space`
 
 ```
 "Region Start (20 dashes)" : {
-    "prefix" 	  : "#region20",
-    "body" 		  : ["#region ==================== ${REGION}"],
+    "prefix"      : "#region20",
+    "body"        : ["#region ==================== ${REGION}"],
     "description" : "Folding Region Start"
 },
 
 "Region End (spaced)" : {
-    "prefix" 	  : "#endregion",
-    "body" 		  : ["// #endregion"],
+    "prefix"      : "#endregion",
+    "body"        : ["// #endregion"],
     "description" : "Folding Region End"
 },
 ```
@@ -225,8 +225,8 @@ Show snippets in editor: `Ctrl + Space`
 
 ```
 "Region Start (20 dashes)" : {
-    "prefix" 	  : "#region20",
-    "body" 		  : ["/* #region ==================== ${REGION} */"],
+    "prefix"      : "#region20",
+    "body"        : ["/* #region ==================== ${REGION} */"],
     "description" : "Folding Region Start"
 },
 ```
@@ -235,14 +235,14 @@ Show snippets in editor: `Ctrl + Space`
 
 ```
 "Region Start (20 dashes)" : {
-    "prefix" 	  : "#region20",
-    "body" 		  : ["#region ==================== ${REGION}"],
+    "prefix"      : "#region20",
+    "body"        : ["#region ==================== ${REGION}"],
     "description" : "Folding Region Start"
 },
 
 "Region End" : {
-    "prefix" 	  : "#endregion",
-    "body" 		  : ["#endregion"],
+    "prefix"      : "#endregion",
+    "body"        : ["#endregion"],
     "description" : "Folding Region End"
 },
 ```
