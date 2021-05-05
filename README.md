@@ -22,34 +22,58 @@ Keyboard Shortcut: `Ctrl + Shift + X`
 
 Keyboard Shortcut: `Ctrl + ,` `->` `Open Settings (JSON)`
 
-    "editor.fontSize": 13,
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true,
-    "editor.trimAutoWhitespace": false,
-    "workbench.tree.indent": 16,
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Visual Studio Light",
-    "editor.renderControlCharacters": false,
-    "php.suggest.basic": false,
-    "editor.snippetSuggestions" : "top",
-    "editor.minimap.enabled": true,
-    "editor.autoIndent": "advanced",
-    "workbench.colorCustomizations": {
-        "minimap.background" : "#fdfdfd"
-    },
+```
+"editor.fontSize": 13,
+"editor.tabSize": 4,
+"editor.insertSpaces": true,
+"editor.trimAutoWhitespace": false,
+"editor.snippetSuggestions" : "top",
+"editor.autoIndent": "advanced",
+"editor.renderControlCharacters": false,
+"editor.minimap.enabled": true,
+
+"workbench.tree.indent": 16,
+"workbench.startupEditor": "newUntitledFile",
+"workbench.colorTheme": "Visual Studio Light",
+"workbench.colorCustomizations": {
+    "minimap.background" : "#fdfdfd"
+},
+
+"php.suggest.basic": false,
+"php.validate.executablePath": "C://xampp//php//php.exe",
+
+"diffEditor.ignoreTrimWhitespace": false,
+```
 
 <br>
 
 ## File > Preferences > Keyboard Shortcuts
 
+### Set
+
 Keyboard Shortcut: `Ctrl + K Ctrl + S`
-    
+
     Copy Line Down              -> Ctrl + D
     Toggle Line Comment         -> Ctrl + Q
     Toggle Block Comment        -> Ctrl + Alt + W
     Emmet: Go to Matching Pair  -> Ctrl + Alt + D
     Fold All Regions            -> Ctrl + R
     Unfold All Regions          -> Alt + R
+
+### Use
+
+```
+Fold All (Recursively)      -> Ctrl + K Ctrl + 0
+Fold Level 1            	-> Ctrl + K Ctrl + 1
+Fold Level 2            	-> Ctrl + K Ctrl + 2
+Fold Level N            	-> Ctrl + K Ctrl + N
+Fold Recursively            -> Ctrl + K Ctrl + ğ
+Fold All Regions 			-> Ctrk + R 			(previously Ctrl + K Ctrl + 8)
+Fold All Regions Exc. Sele.	-> Ctrk + K Ctrl + -
+
+Unfold All                 	-> Ctrl + K Ctrl + J
+Unfold All Regions         	-> Alt + R 				(previously Ctrl + K Ctrl + 9)
+```
 
 <br>
 
@@ -60,12 +84,10 @@ Show snippets in editor: `Ctrl + Space`
 ### PHP
 
 ```
-"Region Comment (40 dashes)" : {
-    "prefix" : "#region40",
-    "body" : [
-        "#region ======================================== $0 ========================================"
-    ],
-    "description": "Add a region/section."
+"Region Start (20 dashes)" : {
+    "prefix" 	  : "#region20",
+    "body" 		  : ["#region ==================== ${REGION}"],
+    "description" : "Folding Region Start"
 },
 	
 "Method" : {
@@ -82,20 +104,16 @@ Show snippets in editor: `Ctrl + Space`
 ### JS
 
 ```
-"Region Start (40 dashes)" : {
-    "prefix" : "#region40",
-    "body" : [
-        "// #region ======================================== $0 ========================================"
-    ],
-    "description": "Add a region/section."
+"Region Start (20 dashes)" : {
+    "prefix" 	  : "#region20",
+    "body" 		  : ["#region ==================== ${REGION}"],
+    "description" : "Folding Region Start"
 },
 
 "Region End (spaced)" : {
-    "prefix" : "#endregion",
-    "body" : [
-        "// #endregion"
-    ],
-    "description": "End a region/section."
+    "prefix" 	  : "#endregion",
+    "body" 		  : ["// #endregion"],
+    "description" : "Folding Region End"
 },
 ```
 
@@ -206,11 +224,25 @@ Show snippets in editor: `Ctrl + Space`
 ### CSS
 
 ```
-"Region Comment (40 dashes)" : {
-    "prefix" : "#region40",
-    "body" : [
-        "/* #region ======================================== $0 ======================================== */"
-    ],
-    "description": "Add a region/section."
+"Region Start (20 dashes)" : {
+    "prefix" 	  : "#region20",
+    "body" 		  : ["/* #region ==================== ${REGION} */"],
+    "description" : "Folding Region Start"
+},
+```
+
+### Python
+
+```
+"Region Start (20 dashes)" : {
+    "prefix" 	  : "#region20",
+    "body" 		  : ["#region ==================== ${REGION}"],
+    "description" : "Folding Region Start"
+},
+
+"Region End" : {
+    "prefix" 	  : "#endregion",
+    "body" 		  : ["#endregion"],
+    "description" : "Folding Region End"
 },
 ```
