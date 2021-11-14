@@ -14,6 +14,7 @@ Keyboard Shortcut: `Ctrl + Shift + X`
 * [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense)
 * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 * [Selected Lines Count](https://marketplace.visualstudio.com/items?itemName=gurumukhi.selected-lines-count)
+* [Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
 * [Sync Scroll](https://marketplace.visualstudio.com/items?itemName=dqisme.sync-scroll)
 
 <br>
@@ -24,13 +25,15 @@ Keyboard Shortcut: `Ctrl + ,` `->` `Open Settings (JSON)`
 
 ```
 "editor.fontSize": 13,
+"editor.lineHeight": 20,
 "editor.tabSize": 4,
 "editor.insertSpaces": true,
 "editor.trimAutoWhitespace": false,
 "editor.snippetSuggestions" : "top",
 "editor.autoIndent": "advanced",
-"editor.renderControlCharacters": false,
 "editor.minimap.enabled": true,
+"editor.bracketPairColorization.enabled": true,
+"editor.renderControlCharacters": false,
 
 "workbench.tree.indent": 16,
 "workbench.startupEditor": "newUntitledFile",
@@ -99,14 +102,22 @@ Show snippets in editor: `Ctrl + Space`
     ],
     "description": "Add a class method."
 },
+	
+"Private Constructor" : {
+    "prefix" : "__construct",
+    "body" : [
+    "private function __construct() {}",
+    ],
+    "description": "Private Class Constructor"
+},
 ```
 
 ### JS
 
 ```
 "Region Start (20 dashes)" : {
-    "prefix"      : "#region20",
-    "body"        : ["#region ==================== ${REGION}"],
+    "prefix" 	  : "#region20",
+    "body" 		  : ["// #region ==================== ${REGION}"],
     "description" : "Folding Region Start"
 },
 
@@ -246,3 +257,4 @@ Show snippets in editor: `Ctrl + Space`
     "description" : "Folding Region End"
 },
 ```
+
