@@ -60,6 +60,7 @@ Keyboard Shortcut: `Ctrl + K Ctrl + S`
     Toggle Line Comment         -> Ctrl + Q
     Toggle Block Comment        -> Ctrl + Alt + W
     Emmet: Go to Matching Pair  -> Ctrl + Alt + D
+    Go to Bracket               -> Ctrl + Alt + D
     Fold All Regions            -> Ctrl + R
     Unfold All Regions          -> Alt + R
 
