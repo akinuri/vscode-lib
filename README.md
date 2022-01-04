@@ -16,6 +16,7 @@ Keyboard Shortcut: `Ctrl + Shift + X`
 * [Selected Lines Count](https://marketplace.visualstudio.com/items?itemName=gurumukhi.selected-lines-count)
 * [Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
 * [Sync Scroll](https://marketplace.visualstudio.com/items?itemName=dqisme.sync-scroll)
+* [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 
 <br>
 
@@ -46,6 +47,21 @@ Keyboard Shortcut: `Ctrl + ,` `->` `Open Settings (JSON)`
 "php.validate.executablePath": "C://xampp//php//php.exe",
 
 "diffEditor.ignoreTrimWhitespace": false,
+
+"editor.cursorBlinking": "phase",
+"editor.smoothScrolling": true,
+"editor.mouseWheelScrollSensitivity": 1.5,
+"editor.fastScrollSensitivity": 3,
+
+"todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "NOTE",
+],
+"todo-tree.filtering.excludeGlobs": ["**/system/**", "**/vendor/**", "**/assets/ext/**"],
 ```
 
 <br>
