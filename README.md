@@ -11,12 +11,15 @@ Keyboard Shortcut: `Ctrl + Shift + X`
 * [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache)
 * [Favorites](https://marketplace.visualstudio.com/items?itemName=kdcro101.favorites)
 * [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
-* [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense)
+* [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
+* [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=zobo.php-intellisense)
 * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 * [Selected Lines Count](https://marketplace.visualstudio.com/items?itemName=gurumukhi.selected-lines-count)
 * [Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
 * [Sync Scroll](https://marketplace.visualstudio.com/items?itemName=dqisme.sync-scroll)
 * [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+* [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
+* [phpcs](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs)
 
 <br>
 
@@ -76,7 +79,7 @@ Keyboard Shortcut: `Ctrl + K Ctrl + S`
     Toggle Line Comment         -> Ctrl + Q
     Toggle Block Comment        -> Ctrl + Alt + W
     Emmet: Go to Matching Pair  -> Ctrl + Alt + D
-    Go to Bracket               -> Ctrl + Alt + D
+    Go to Bracket               -> Alt + D
     Fold All Regions            -> Ctrl + R
     Unfold All Regions          -> Alt + R
 
