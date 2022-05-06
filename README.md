@@ -20,6 +20,11 @@ Keyboard Shortcut: `Ctrl + Shift + X`
 * [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 * [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
 * [phpcs](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs)
+* [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+* [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)
+* [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+* [Laravel Artisan](https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan)
+* [Laravel goto view](https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view)
 
 <br>
 
@@ -35,26 +40,29 @@ Keyboard Shortcut: `Ctrl + ,` `->` `Open Settings (JSON)`
 "editor.trimAutoWhitespace": false,
 "editor.snippetSuggestions" : "top",
 "editor.autoIndent": "advanced",
-"editor.minimap.enabled": true,
 "editor.bracketPairColorization.enabled": true,
 "editor.renderControlCharacters": false,
+"editor.minimap.enabled": false,
+"editor.cursorBlinking": "phase",
+"editor.smoothScrolling": true,
+"editor.mouseWheelScrollSensitivity": 1.5,
+"editor.fastScrollSensitivity": 3,
+"editor.unicodeHighlight.allowedCharacters": {
+	"ı": true
+},
+
+"explorer.openEditors.visible": 0,
 
 "workbench.tree.indent": 16,
 "workbench.startupEditor": "newUntitledFile",
 "workbench.colorTheme": "Visual Studio Light",
-"workbench.colorCustomizations": {
-    "minimap.background" : "#fdfdfd"
-},
 
 "php.suggest.basic": false,
 "php.validate.executablePath": "C://xampp//php//php.exe",
 
 "diffEditor.ignoreTrimWhitespace": false,
 
-"editor.cursorBlinking": "phase",
-"editor.smoothScrolling": true,
-"editor.mouseWheelScrollSensitivity": 1.5,
-"editor.fastScrollSensitivity": 3,
+"window.zoomLevel": -1,
 
 "todo-tree.general.tags": [
     "BUG",
@@ -64,7 +72,12 @@ Keyboard Shortcut: `Ctrl + ,` `->` `Open Settings (JSON)`
     "XXX",
     "NOTE",
 ],
-"todo-tree.filtering.excludeGlobs": ["**/system/**", "**/vendor/**", "**/assets/ext/**"],
+"todo-tree.filtering.excludeGlobs": [
+    "**/assets/ext/**",
+    "**/node_modules/**",
+    "**/system/**",
+    "**/vendor/**",
+],
 ```
 
 <br>
