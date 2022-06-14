@@ -10,7 +10,12 @@ Keyboard Shortcut: `Ctrl + Shift + X`
 
 * [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache)
 * [Favorites](https://marketplace.visualstudio.com/items?itemName=kdcro101.favorites)
+* [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+* [Laravel Artisan](https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan)
+* [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)
+* [Laravel goto view](https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view)
 * [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
+* [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 * [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
 * [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=zobo.php-intellisense)
 * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
@@ -18,13 +23,9 @@ Keyboard Shortcut: `Ctrl + Shift + X`
 * [Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
 * [Sync Scroll](https://marketplace.visualstudio.com/items?itemName=dqisme.sync-scroll)
 * [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+* [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 * [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
 * [phpcs](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs)
-* [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-* [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)
-* [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
-* [Laravel Artisan](https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan)
-* [Laravel goto view](https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view)
 
 <br>
 
@@ -50,6 +51,9 @@ Keyboard Shortcut: `Ctrl + ,` `->` `Open Settings (JSON)`
 "editor.unicodeHighlight.allowedCharacters": {
 	"ı": true
 },
+"editor.rulers": [
+    80
+],
 
 "explorer.openEditors.visible": 0,
 
